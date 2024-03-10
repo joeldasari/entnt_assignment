@@ -1,14 +1,16 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const AddProduct = () => {
+  const navigate = useNavigate();
   const [productName, setProductName] = useState(null);
   const [productType, setProductType] = useState(null);
   const [productPrice, setProductPrice] = useState(null);
   const [productStock, setProductStock] = useState(null);
   const handleSubmit = (e) => {
     e.preventDefault();
-    const result = { productName, productType, productPrice, productStock };
-    alert(JSON.stringify(result));
+    alert("Item added Successfully");
+    navigate("/products");
   };
   return (
     <div className="add_product">
