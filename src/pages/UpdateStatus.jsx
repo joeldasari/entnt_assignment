@@ -7,6 +7,7 @@ const UpdateStatus = () => {
   const handleUpdate = (e) => {
     e.preventDefault();
     alert("Updated Successfully");
+    navigate("/orders");
   };
   return (
     <div className="add_product">
