@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins";
+}
+
+/* navbar  */
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 64px;
+  box-shadow: 0px 0px 12px lightgray;
+}
+
+.navigation {
+  display: flex;
+  gap: 32px;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  color: orange;
+}
+
+/* products  */
+
+.products_container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.products_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.product {
+  width: 320px;
+  height: 240px;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0px 0px 6px lightgray;
+}
+
+.product_category {
+  background-color: lightgray;
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: small;
+}
+
+.product_btns {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.product_btns:hover {
+  background-color: rgb(54, 54, 54);
+}
+
+.product_options {
+  display: flex;
+  gap: 8px;
+}
+
+/* orders */
+
+.orders_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.orders_container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.order {
+  box-shadow: 0px 0px 6px lightgray;
+  width: 320px;
+  height: max-content;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.order_btns {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: max-content;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.order_btns:hover {
+  background-color: rgb(54, 54, 54);
+}
+
+/* dashboard  */
+
+.dashboard_container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0px;
+}
+
+.product {
+  width: 320px;
+  height: max-content;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0px 0px 6px lightgray;
+}
+
+.dashboard_order {
+  width: 100%;
+  padding: 8px 16px;
+  background-color: lightgray;
+  border-radius: 6px;
+  margin: 0px 0px 8px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total_products {
+  text-align: center;
+}
+.total_order {
+  text-align: center;
+}
+
+/* add product  */
+
+.add_product {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.add_product_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0px 0px 6px lightgray;
+  padding: 24px;
+  border-radius: 6px;
+}
+.add_product_form input {
+  width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+.add_product_form button {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: max-content;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.add_product_note {
+  font-size: smaller;
+  color: red;
+}
+
+/* delete page  */
+
+.delete_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.delete_msg {
+  text-align: center;
+  box-shadow: 0px 0px 6px lightgray;
+  padding: 24px;
+  border-radius: 6px;
+}
+
+.delete_msg button {
+  background-color: rgb(255, 80, 80);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: max-content;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.delete_msg button:hover {
+  background-color: red;
+}
+
+/* media queries  */
+
+@media screen and (max-width: 640px) {
+  .navbar-wrapper {
+    padding: 18px;
+  }
+}
