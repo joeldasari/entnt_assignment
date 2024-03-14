@@ -6,6 +6,9 @@ const Navbar = () => {
         <h2>ERP System</h2>
       </Link>
       <ul className="navigation">
+        <Link to={"/"} className="link mobile">
+          <li>Home</li>
+        </Link>
         <Link to={"/products"} className="link">
           <li>Products</li>
         </Link>

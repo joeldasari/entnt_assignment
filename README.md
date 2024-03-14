@@ -1,8 +1,30 @@
-# React + Vite
+# Basic ERP System (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a basic ERP system created using React with Vite for rapid development. It serves as a frontend application without backend integration, utilizing mock data for showcasing purposes.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To start the project, use the following command:
+
+## Technologies Used
+
+- React
+- Vite
+- React Router DOM
+
+## Styling
+
+Vanilla CSS is used for styling, ensuring simplicity and flexibility.
+
+## Functionality
+
+- **Dashboard Page**: The landing page displays a dashboard with a total list of products and orders.
+- **Navigation**: The navbar allows easy navigation between the products management page and the orders management page.
+- **Products Management Page**: Features include adding, updating, and deleting products.
+- **Orders Management Page**: Features include updating the status of orders (e.g., Delivered, Order Confirmed, Dispatched).
+
+Note: Data is mock data and not fetched from a backend or database.
+
+## Mobile Responsiveness
+
+Media queries are implemented to ensure mobile responsiveness.

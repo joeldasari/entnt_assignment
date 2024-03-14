@@ -5,6 +5,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard_container">
       <div className="total_products">
+        <h1>Dashboard</h1>
         <h2 style={{ textDecoration: "underline" }}>Products</h2>
         <span>Total Products: </span>
         <strong>{productsData.length}</strong>
