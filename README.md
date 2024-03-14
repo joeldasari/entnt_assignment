@@ -8,6 +8,10 @@ To start the project, use the following command:
 
 npm run dev
 
+## Demo
+
+Here is the demo of the project: [Demo](https://entnt-assignment.netlify.app/)
+
 ## Technologies Used
 
 - React
