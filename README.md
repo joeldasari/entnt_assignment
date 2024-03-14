@@ -6,10 +6,11 @@ This project is a basic ERP system created using React with Vite for rapid devel
 
 To start the project, use the following command:
 
+npm run dev
+
 ## Technologies Used
 
 - React
-- Vite
 - React Router DOM
 
 ## Styling
